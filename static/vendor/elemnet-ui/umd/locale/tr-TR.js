@@ -1,20 +1,20 @@
-(function (global, factory) {
-  if (typeof define === "function" && define.amd) {
-    define('element/locale/tr-TR', ['module', 'exports'], factory);
-  } else if (typeof exports !== "undefined") {
-    factory(module, exports);
+;(function(global, factory) {
+  if (typeof define === 'function' && define.amd) {
+    define('element/locale/tr-TR', ['module', 'exports'], factory)
+  } else if (typeof exports !== 'undefined') {
+    factory(module, exports)
   } else {
     var mod = {
       exports: {}
-    };
-    factory(mod, mod.exports);
-    global.ELEMENT.lang = global.ELEMENT.lang || {}; 
-    global.ELEMENT.lang.trTR = mod.exports;
+    }
+    factory(mod, mod.exports)
+    global.ELEMENT.lang = global.ELEMENT.lang || {}
+    global.ELEMENT.lang.trTR = mod.exports
   }
-})(this, function (module, exports) {
-  'use strict';
+})(this, function(module, exports) {
+  'use strict'
 
-  exports.__esModule = true;
+  exports.__esModule = true
   exports.default = {
     el: {
       colorpicker: {
@@ -134,6 +134,6 @@
         cancelButtonText: 'No' // to be translated
       }
     }
-  };
-  module.exports = exports['default'];
-});
+  }
+  module.exports = exports['default']
+})

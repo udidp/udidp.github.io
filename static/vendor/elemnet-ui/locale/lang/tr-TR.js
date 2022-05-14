@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-exports.__esModule = true;
+exports.__esModule = true
 exports.default = {
   el: {
     colorpicker: {
@@ -120,4 +120,4 @@ exports.default = {
       cancelButtonText: 'No' // to be translated
     }
   }
-};
+}
